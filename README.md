@@ -1,5 +1,7 @@
 # EvoScholar 🚀🧠⚙️
 
+![Python](https://img.shields.io/badge/language-Python-blue)
+
 EvoScholar is a self-improving research agent designed to generate concise, interdisciplinary research papers. By fetching the latest arXiv paper summaries and blending concepts from diverse STEM fields, EvoScholar synthesizes innovative research ideas and iteratively refines them through feedback loops.
 
 ## Demo
@@ -16,11 +18,11 @@ EvoScholar is a self-improving research agent designed to generate concise, inte
 
 ## Project Structure
 
+```text
+
 . ├── assets │ └── demo.png ├── generated_papers ├── LICENSE ├── README.md ├── requirements.txt └── src ├── evo_scholar.py ├── generated_paper.txt ├── init.py ├── tests.py └── utils.py
 
-bash
-Copy
-Edit
+```
 
 ## Installation
 
@@ -31,22 +33,29 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 export XAI_API_KEY="your_api_key_here"
-Usage
-bash
-Copy
-Edit
+
+
+## Usage
+
+```bash
+
 python src/evo_scholar.py
 The generated research paper will be saved in src/generated_paper.txt and the generated_papers directory.
+```
 
-Testing
-bash
-Copy
-Edit
+## Testing
+```bash
+
 python src/tests.py
 pytest  # If pytest is installed
-License
+
+```
+
+## License
 This project is licensed under the MIT License.
 
-Contributing
+## Contributing
 Contributions, suggestions, and improvements are welcome!
-Feel free to open issues or submit pull requests.
+Feel free to open issues or submit pull requests. Please fork to contribute if possible!
+
+Thank you for checking out my project. I hooe you can generate some cool new ideas!
