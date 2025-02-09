@@ -20,7 +20,23 @@ EvoScholar is a self-improving research agent designed to generate concise, inte
 
 ```text
 
-. ├── assets │ └── demo.png ├── generated_papers ├── LICENSE ├── README.md ├── requirements.txt └── src ├── evo_scholar.py ├── generated_paper.txt ├── init.py ├── tests.py └── utils.py
+.
+├── assets
+│   └── demo.png
+├── generated_papers
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── src
+    ├── evo_scholar.py
+    ├── generated_paper.txt
+    ├── __init__.py
+    ├── tests.py
+    └── utils.py
+
+4 directories, 9 files
+
+
 
 ```
 
